@@ -1,7 +1,7 @@
 import path from 'path';
 import typescript from '@rollup/plugin-typescript';
-import commonjs from 'rollup-plugin-commonjs';
-import resolve from 'rollup-plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
 import progress from 'rollup-plugin-progress';
 import { terser } from 'rollup-plugin-terser';
 import tsConfig from './tsconfig.json';
